@@ -32,16 +32,18 @@ Programador de páginas web, programador de aplicaciones web, programador de sis
         href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap"
         rel="stylesheet">
 
+    <link rel="stylesheet" href="./assets/css/animate.css">
+
     <!-- Mis estilos -->
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
 <body>
     <header class="hero" id="inicio">
-        <div class="hero__title">
+        <div class="hero__title wow fadeInDown">
             <div>Joel Programador</div>
         </div>
-        <div class="hero__subtitle">
+        <div class="hero__subtitle wow fadeInDown">
             <h2>SOLUCIONES PARA TU NEGOCIO</h2>
         </div>
         <div class="hero__cta">
@@ -55,7 +57,7 @@ Programador de páginas web, programador de aplicaciones web, programador de sis
         <section class="section section__acercademi" id="acercademi">
             <div class="row d-flex flex-row">
                 <div class="col-xs-12 col-sm-12 col-lg-6 section__text">
-                    <div class="section__title">Acerca de mi</div>
+                    <div class="section__title wow fadeInDown">Acerca de mi</div>
                     <p>Me dedico al análisis y desarrollo de sistemas desde 1990.</p>
                     <p>Tengo experiencia en diferentes áreas de desarrollo web tales como: sistemas de procesamiento de
                         transacciones como sistemas de inventario, de almacén, sistemas de información administrativa
@@ -79,7 +81,7 @@ Programador de páginas web, programador de aplicaciones web, programador de sis
                     <img src="./assets/img/teofrezco.jpg" alt="Imagen acerca de mi">
                 </div>
                 <div class="col-xs-12 col-sm-12 col-lg-6 section__text">
-                    <div class="section__title">Te ofrezco</div>
+                    <div class="section__title wow fadeInDown">Te ofrezco</div>
                     <p>En primer lugar: una sólida ética personal y profesional para poder dar forma a las relaciones
                         con tu empresa.</p>
                     <p>Disciplina y capacidad para coordinar los procesos y recursos, técnicos y humanos, para llevar a
@@ -97,7 +99,7 @@ Programador de páginas web, programador de aplicaciones web, programador de sis
 
 
         <section class="section section__misservicios" id="misservicios">
-            <div class="section__title text-center">Mis servicios</div>
+            <div class="section__title text-center wow fadeInDown">Mis servicios</div>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <article class="card border-light h-100">
@@ -137,13 +139,13 @@ Programador de páginas web, programador de aplicaciones web, programador de sis
         <footer class="row">
             <div class="col footer">
                 <div class="card footer__card h100">
-                    <div class="card-body text-center">
+                    <div class="card-body text-center wow fadeInDown">
                         <div class="footer__title">Joel Programador</div>
                         <div class="footer__subtitle">SOLUCIONES PARA TU NEGOCIO</div>
                     </div>
                 </div>
                 <div class="card footer__card h100">
-                    <div class="card-body text-center">
+                    <div class="card-body text-center wow fadeInDown">
                         <div class="footer__title">
                             Sígueme en mis redes sociales
                         </div>
@@ -166,7 +168,7 @@ Programador de páginas web, programador de aplicaciones web, programador de sis
                     </div>
                 </div>
                 <div class="card footer__card h100">
-                    <div class="card-body text-center">
+                    <div class="card-body text-center wow fadeInDown">
                         <div class="footer__links">
                             <a href="#inicio">Inicio</a>
                             <a href="#acercademi">Acerca de mi</a>
@@ -178,6 +180,10 @@ Programador de páginas web, programador de aplicaciones web, programador de sis
             </div>
         </footer>
     </main>
+    <script src="./assets/js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 
 </html>
